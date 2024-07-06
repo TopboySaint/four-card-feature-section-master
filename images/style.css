@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+}
+.cardBox{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.cardOne{
+    width: 250px;
+    height: 200px;
+    
+    border: 2px solid red;
+}
+.cardTwo{
+    width: 250px;
+    height: 200px;
+    
+    border: 2px solid red;
+}
+.cardThree{
+    width: 250px;
+    height: 200px;
+    
+    border: 2px solid red;
+}
+.cardFour{
+    width: 250px;
+    height: 200px;
+
+    border: 2px solid red;
+}
