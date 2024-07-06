@@ -12,6 +12,8 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    @import url(https://fonts.google.com/specimen/Poppins);
+
     .attribution {
       font-size: 11px;
       text-align: center;
@@ -24,7 +26,23 @@
     main{
       align-items: center;
     }
-
+    .firstHeader{
+      margin-top: 50px;
+      font-family: poppins;
+      line-height: 25px;
+      color: hsl(229, 6%, 66%);
+    }
+    main p{
+      margin-bottom: 30px;
+      font-family: poppins;
+      color: hsl(229, 6%, 66%);
+    
+    }
+    .secondHeader{
+      font-family: poppins;
+      line-height: 18px;
+      color: hsl(234, 12%, 34%);
+    }
     main h1, main p{
       text-align: center;
     }
@@ -35,6 +53,7 @@
       justify-content: center;
     }
     .cardOne{
+      padding: 10px;
       width: 220px;
       height: 200px;
       border: 2px solid blue;
@@ -42,6 +61,7 @@
     }
 
     .cardTwo{
+      padding: 10px;
       width: 220px;
       height: 200px;
       border: 2px solid blue;
@@ -49,26 +69,41 @@
     }
 
     .cardThree{
+      padding: 10px;
       width: 220px;
       height: 200px;
       border: 2px solid blue;
-      transform: translate(-112px, 220px);
+      transform: translate(-131px, 235px);
     }
 
     .cardFour{
+      padding: 10px;
       width: 220px;
       height: 200px;
       border: 2px solid blue;
-      transform: translate(-100px, 100px);
+      transform: translate(-120px, 100px);
+    }
+
+    .cardOne p {
+      color: hsl(234, 12%, 34%);
+      text-align: start;
+      font-family: poppins;
+      font-weight: 600 ;
+    }
+
+    .cardOne span{
+      display: block;
+      font-size: 15px;
+      transform: translateY(-10px);
     }
   </style>
 </head>
 
 <body>
   <main>
-    <h1>Reliable, efficient delivery</h1>
-    <h1>Powered by Technology</h1>
-    <p>Our Artificial Intelligence powered tools use millions of project data points
+    <h1 class="firstHeader">Reliable, efficient delivery</h1>
+    <h1 class="secondHeader">Powered by Technology</h1>
+    <p>Our Artificial Intelligence powered tools use millions of project data <br> points
       to ensure that your project is successful</p>
 
     <div class="cardBox">
