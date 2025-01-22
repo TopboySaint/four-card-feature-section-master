@@ -1,21 +1,55 @@
 @media screen and (max-width: 475px) {
-  .cardBox {
-    /* display: block; */
-    gap: 30px;
-    margin:auto;
-    /* justify-content: center; */
-  }
-
   .firstHeader {
     font-size: 25px;
   }
 
-  .secondHeader{
+  .secondHeader {
     font-size: 24px;
     line-height: 5px;
   }
 
-  main p{
-    
+  .cardBox {
+    display: block;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+
+  .cardOne {
+    width: 270px;
+    transform: translate(40px, 30px);
+  }
+
+  .cardTwo {
+    width: 270px;
+    transform: translate(40px, 50px);
+  }
+
+  .cardThree {
+    width: 270px;
+    transform: translate(40px, 70px);
+  }
+
+  .cardFour {
+    width: 270px;
+    transform: translate(40px, 90px);
+  }
+
+  .cardOne img{
+    transform: translate(200px, 60px);
+  }
+  
+  .cardTwo img{
+    width: 40px;
+    transform: translate(200px, 60px);
+  }
+  
+  .cardThree img{
+    width: 40px;
+    transform: translate(200px, 60px);
+  }
+  
+  .cardFour img{
+    width: 40px;
+    transform: translate(200px, 60px);
   }
 }

@@ -5,7 +5,7 @@ main{
   margin: auto;
 }
 .firstHeader{
-  margin-top: 50px;
+  margin-top: 30px;
   font-family: poppins;
   line-height: 25px;
   color: hsl(229, 6%, 66%);
@@ -13,7 +13,7 @@ main{
 }
 main p{
   /* width: 32rem; */
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   font-family: poppins;
   color: hsl(229, 6%, 66%);
   font-weight: 400;
@@ -32,6 +32,7 @@ main h1, main p{
 }
 
 .cardBox{
+  margin-top: 50px;
   display: flex;
   /* gap: 10px; */
   justify-content: center;
@@ -82,6 +83,7 @@ main h1, main p{
   font-family: poppins;
   font-weight: 600;
   font-size: 15px;
+  margin-bottom: 20px;
 }
 
 .cardOne span{
@@ -94,7 +96,7 @@ main h1, main p{
 
 .cardOne img{
   width: 40px;
-  transform: translate(150px, 20px);
+  transform: translate(150px, 50px);
 }
 
 .cardTwo p {
@@ -103,6 +105,7 @@ main h1, main p{
   font-family: poppins;
   font-weight: 600 ;
   font-size: 15px;
+  margin-bottom: 20px;
 }
 
 .cardTwo span{
@@ -115,7 +118,7 @@ main h1, main p{
 
 .cardTwo img{
   width: 40px;
-  transform: translate(150px, 20px);
+  transform: translate(150px, 50px);
 }
 
 .cardThree p {
@@ -124,6 +127,7 @@ main h1, main p{
   font-family: poppins;
   font-weight: 600 ;
   font-size: 15px;
+  margin-bottom: 20px;
 }
 
 .cardThree span{
@@ -136,7 +140,7 @@ main h1, main p{
 
 .cardThree img{
   width: 40px;
-  transform: translate(150px, 20px);
+  transform: translate(150px, 50px);
 }
 
 .cardFour p {
@@ -145,6 +149,7 @@ main h1, main p{
   font-family: poppins;
   font-weight: 600 ;
   font-size: 15px;
+  margin-bottom: 20px;
 }
 
 .cardFour span{
@@ -157,7 +162,7 @@ main h1, main p{
 
 .cardFour img{
   width: 40px;
-  transform: translate(150px, 20px);
+  transform: translate(150px, 50px);
 }
 
 
